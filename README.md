@@ -25,7 +25,7 @@
     git clone https://github.com/kai-0430/ADAR-MED.git
     cd ADAR-MED
     ```
-4. Install packages.
+4. Install ADAR-MED that's built on FastChat v0.2.36.
     ```
     pip3 install --upgrade pip
     pip3 install -e ".[model_worker,webui]"
