@@ -1,4 +1,4 @@
-Here we explains how to reproduce throughput data of ADAR-MED server.
+This markdown explains how to reproduce the throughput data of ADAR-MED server on our report.
 1. In `fastchat/serve/med_chabot_web_server.py`, send multiple concurrent requests.
 
    Original:
