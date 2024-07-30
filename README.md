@@ -4,9 +4,10 @@
 <p align="center">
     Links: <a href="https://www.hackster.io/contests/amd2023/hardware_applications/16954">Proposal</a> | <a href="https://www.hackster.io/519710/adar-med-ai-driven-assistant-for-rapid-medical-diagnosis-8f6e0c#toc-web-ui-4">Report</a> | <a href="https://github.com/kai-0430/ADAR-MED">GitHub</a><br />
 </p>
-
-![image](https://github.com/user-attachments/assets/16ce174a-0217-411c-ae59-a4cdf3dd39fa)
-
+<p align="center">
+  <picture> <img alt="MED-ALPACA" src="https://github.com/user-attachments/assets/16ce174a-0217-411c-ae59-a4cdf3dd39fa" width=55%>
+</p>
+      
 ## Installation
 
 1. (Recommended) Create a conda environment with Python version >= 3.11.
