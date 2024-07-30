@@ -20,13 +20,14 @@
     conda activate your_env
     ```
 2. Install vllm
+
     For installing vllm with ROCm on AMD accelerate cloud, you can check this [website](https://hackmd.io/@unj0M9DkQhqZGOyd71BT5g/HkFNSQEHR). If you are using other platforms, please visit the [vllm documentation](https://docs.vllm.ai/en/latest/getting_started/installation.html).
-3. Clone this repository
+4. Clone this repository
     ```
     git clone https://github.com/kai-0430/ADAR-MED.git
     cd ADAR-MED
     ```
-4. Install packages.
+5. Install packages.
     ```
     pip3 install --upgrade pip
     pip3 install -e ".[model_worker,webui]"
