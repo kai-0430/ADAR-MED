@@ -1,3 +1,6 @@
+<h1 style="text-align: center; font-size: 260%;">
+    ️👨‍⚕️ ADAR-MED 👩‍⚕️
+</h1>
 <h3 align="center">
     An AI-Driven Assistant for Rapid Medical Diagnosis
 </h3>
