@@ -1,8 +1,8 @@
-<h1 style="text-align: center; font-size: 260%;">️👨‍⚕️ ADAR-MED 👩‍⚕️</h1>
+![image](https://github.com/user-attachments/assets/23feca5b-625d-48f4-8b5e-15d5c9940935)<h1 style="text-align: center; font-size: 260%;">️👨‍⚕️ ADAR-MED 👩‍⚕️</h1>
     <h3 style="text-align: center;">An AI-Driven Assistant for Rapid Medical Diagnosis</h3>
     <p style="text-align: center;">Links: <a href="https://www.hackster.io/contests/amd2023/hardware_applications/16954">Proposal</a> | <a href="https://www.hackster.io/519710/adar-med-ai-driven-assistant-for-rapid-medical-diagnosis-8f6e0c#toc-web-ui-4">Report</a> | <a href="https://github.com/kai-0430/ADAR-MED">GitHub</a><br /></p>
     
-![image](https://hackmd.io/_uploads/BJoZ1n8FR.png)
+![image](https://github.com/user-attachments/assets/e402e145-528e-478e-84ad-ca84402529a9)
 
 ## Installation
 
