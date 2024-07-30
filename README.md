@@ -1,8 +1,4 @@
-<h1 style="text-align: center; font-size: 260%;">
-    ️👨‍⚕️ ADAR-MED 👩‍⚕️
-</h1>
-
-<div style="font-size: 260%;">
+<div style="font-size: 450%;">
   <h1 align="center">👨‍⚕️ ADAR-MED 👩‍⚕️</h1>
 </div>
 
