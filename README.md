@@ -36,11 +36,16 @@ You can download the MedAlpaca-7b model from [Huggingface](https://huggingface.c
 ## How to run ADAR-MED?
 1. Open three terminals, activate the conda environment, and navigate to the ADAR-MED directory.
 2. In terminal 1, launch the controller.
-    `python3 -m fastchat.serve.controller --host 127.0.0.1`
+    ```
+    python3 -m fastchat.serve.controller --host 127.0.0.1
+    ```
 3. In terminal 2, launch the vLLM engine. This will take a while since we will load a model in this step.
-    `python3 -m fastchat.serve.vllm_worker --host 127.0.0.1 --model-path /path/to/med_alpaca --max-num-seqs 768`
+    ```
+    python3 -m fastchat.serve.vllm_worker --host 127.0.0.1 --model-path /path/to/med_alpaca --max-num-seqs 768
+    ```
 4. In terminal 3, launch the ADAR-MED web user interface.
-    `python3 -m fastchat.serve.med_chabot_web_server --host 127.0.0.1 --share`
-    
+    ```
+    python3 -m fastchat.serve.med_chabot_web_server --host 127.0.0.1 --share
+    ```
 More argument details can be found in the [report](https://www.hackster.io/519710/adar-med-ai-driven-assistant-for-rapid-medical-diagnosis-8f6e0c#toc-web-ui-4). 
 
