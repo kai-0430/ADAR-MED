@@ -35,7 +35,7 @@ You can download the MedAlpaca-7b model from [Huggingface](https://huggingface.c
 
 ## How to run ADAR-MED?
 1. Open three terminals, activate the conda environment, and navigate to the ADAR-MED directory.
-2. In terminal 1, launch the controller. On the AMD accelerate cloud, we used host ip `127.0.0.1`.
+2. In terminal 1, launch the controller. On the AMD accelerate cloud, we use the host ip `127.0.0.1`.
     ```
     python3 -m fastchat.serve.controller --host 127.0.0.1
     ```
