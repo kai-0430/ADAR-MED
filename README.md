@@ -1,6 +1,11 @@
 <h1 style="text-align: center; font-size: 260%;">
     ️👨‍⚕️ ADAR-MED 👩‍⚕️
 </h1>
+
+<div style="font-size: 260%;">
+  <h1 align="center">👨‍⚕️ ADAR-MED 👩‍⚕️</h1>
+</div>
+
 <h3 align="center">
     An AI-Driven Assistant for Rapid Medical Diagnosis
 </h3>
