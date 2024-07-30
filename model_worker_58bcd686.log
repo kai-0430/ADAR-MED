@@ -1,0 +1,62 @@
+2024-07-30 17:01:45 | INFO | model_worker | Loading the model ['medalpaca'] on worker 58bcd686, worker type: vLLM worker...
+2024-07-30 17:01:45 | INFO | model_worker | Register to controller
+2024-07-30 17:01:45 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m2011[0m]
+2024-07-30 17:01:45 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 17:01:45 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 17:01:45 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21002[0m (Press CTRL+C to quit)
+2024-07-30 17:01:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54374 - "[1mPOST /worker_get_status HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:02:30 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 58bcd686. 
+2024-07-30 17:03:15 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 58bcd686. 
+2024-07-30 17:03:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50886 - "[1mPOST /worker_get_status HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:00 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 58bcd686. 
+2024-07-30 17:04:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50100 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56908 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56910 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33106 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59602 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:45 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:05:30 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:06:15 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:07:00 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:07:45 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:08:30 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:09:15 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:10:00 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:10:45 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:11:30 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:12:15 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:13:00 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:13:45 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:14:30 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:15:15 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:16:00 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:16:45 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: Semaphore(value=1024, locked=False). call_ct: 5. worker_id: 58bcd686. 
+2024-07-30 17:16:52 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-07-30 17:16:52 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-07-30 17:16:52 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-07-30 17:16:52 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m2011[0m]
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]: Traceback (most recent call last):
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 118, in run
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:     return self._loop.run_until_complete(task)
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]: asyncio.exceptions.CancelledError
+2024-07-30 17:16:52 | ERROR | stderr | 
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]: During handling of the above exception, another exception occurred:
+2024-07-30 17:16:52 | ERROR | stderr | 
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]: Traceback (most recent call last):
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/vllm_worker.py", line 302, in <module>
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/main.py", line 577, in run
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:     server.run()
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:     return asyncio.run(self.serve(sockets=sockets))
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 190, in run
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:     return runner.run(main)
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:            ^^^^^^^^^^^^^^^^
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 123, in run
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]:     raise KeyboardInterrupt()
+2024-07-30 17:16:52 | ERROR | stderr | [rank0]: KeyboardInterrupt

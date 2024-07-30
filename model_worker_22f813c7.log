@@ -1,0 +1,41 @@
+2024-07-30 17:17:27 | INFO | model_worker | Loading the model ['medalpaca'] on worker 22f813c7, worker type: vLLM worker...
+2024-07-30 17:17:27 | INFO | model_worker | Register to controller
+2024-07-30 17:17:27 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m2377[0m]
+2024-07-30 17:17:27 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 17:17:27 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 17:17:27 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21002[0m (Press CTRL+C to quit)
+2024-07-30 17:18:12 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 22f813c7. 
+2024-07-30 17:18:57 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 22f813c7. 
+2024-07-30 17:19:42 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 22f813c7. 
+2024-07-30 17:20:27 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 22f813c7. 
+2024-07-30 17:21:12 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 22f813c7. 
+2024-07-30 17:21:57 | INFO | model_worker | Send heart beat. Models: ['medalpaca']. Semaphore: None. call_ct: 0. worker_id: 22f813c7. 
+2024-07-30 17:22:28 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-07-30 17:22:28 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-07-30 17:22:28 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-07-30 17:22:28 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m2377[0m]
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]: Traceback (most recent call last):
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 118, in run
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:     return self._loop.run_until_complete(task)
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]: asyncio.exceptions.CancelledError
+2024-07-30 17:22:28 | ERROR | stderr | 
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]: During handling of the above exception, another exception occurred:
+2024-07-30 17:22:28 | ERROR | stderr | 
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]: Traceback (most recent call last):
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/vllm_worker.py", line 302, in <module>
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/main.py", line 577, in run
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:     server.run()
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:     return asyncio.run(self.serve(sockets=sockets))
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 190, in run
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:     return runner.run(main)
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:            ^^^^^^^^^^^^^^^^
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 123, in run
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]:     raise KeyboardInterrupt()
+2024-07-30 17:22:28 | ERROR | stderr | [rank0]: KeyboardInterrupt

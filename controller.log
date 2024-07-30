@@ -1,0 +1,347 @@
+2024-07-30 16:24:47 | INFO | controller | args: Namespace(host='127.0.0.1', port=21001, dispatch_method='shortest_queue', ssl=False)
+2024-07-30 16:24:47 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1248[0m]
+2024-07-30 16:24:47 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 16:24:47 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 16:24:47 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21001[0m (Press CTRL+C to quit)
+2024-07-30 16:24:50 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-07-30 16:24:50 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-07-30 16:24:50 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-07-30 16:24:50 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m1248[0m]
+2024-07-30 16:24:50 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 16:24:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 118, in run
+2024-07-30 16:24:50 | ERROR | stderr |     return self._loop.run_until_complete(task)
+2024-07-30 16:24:50 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 16:24:50 | ERROR | stderr |   File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+2024-07-30 16:24:50 | ERROR | stderr | asyncio.exceptions.CancelledError
+2024-07-30 16:24:50 | ERROR | stderr | 
+2024-07-30 16:24:50 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-07-30 16:24:50 | ERROR | stderr | 
+2024-07-30 16:24:50 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 16:24:50 | ERROR | stderr |   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 16:24:50 | ERROR | stderr |   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 16:24:50 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/controller.py", line 389, in <module>
+2024-07-30 16:24:50 | ERROR | stderr |     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
+2024-07-30 16:24:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/main.py", line 577, in run
+2024-07-30 16:24:50 | ERROR | stderr |     server.run()
+2024-07-30 16:24:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+2024-07-30 16:24:50 | ERROR | stderr |     return asyncio.run(self.serve(sockets=sockets))
+2024-07-30 16:24:50 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 16:24:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 190, in run
+2024-07-30 16:24:50 | ERROR | stderr |     return runner.run(main)
+2024-07-30 16:24:50 | ERROR | stderr |            ^^^^^^^^^^^^^^^^
+2024-07-30 16:24:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 123, in run
+2024-07-30 16:24:50 | ERROR | stderr |     raise KeyboardInterrupt()
+2024-07-30 16:24:50 | ERROR | stderr | KeyboardInterrupt
+2024-07-30 16:24:52 | ERROR | stderr | Exception ignored in: <module 'threading' from '/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py'>
+2024-07-30 16:24:52 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 16:24:52 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py", line 1590, in _shutdown
+2024-07-30 16:24:52 | ERROR | stderr |     lock.acquire()
+2024-07-30 16:24:52 | ERROR | stderr | KeyboardInterrupt:
+2024-07-30 16:29:29 | INFO | controller | args: Namespace(host='127.0.0.1', port=21001, dispatch_method='shortest_queue', ssl=False)
+2024-07-30 16:29:29 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1292[0m]
+2024-07-30 16:29:29 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 16:29:29 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 16:29:29 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21001[0m (Press CTRL+C to quit)
+2024-07-30 16:29:34 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-07-30 16:29:34 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-07-30 16:29:34 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-07-30 16:29:34 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m1292[0m]
+2024-07-30 16:29:34 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 16:29:34 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 118, in run
+2024-07-30 16:29:34 | ERROR | stderr |     return self._loop.run_until_complete(task)
+2024-07-30 16:29:34 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 16:29:34 | ERROR | stderr |   File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+2024-07-30 16:29:34 | ERROR | stderr | asyncio.exceptions.CancelledError
+2024-07-30 16:29:34 | ERROR | stderr | 
+2024-07-30 16:29:34 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-07-30 16:29:34 | ERROR | stderr | 
+2024-07-30 16:29:34 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 16:29:34 | ERROR | stderr |   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 16:29:34 | ERROR | stderr |   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 16:29:34 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/controller.py", line 389, in <module>
+2024-07-30 16:29:34 | ERROR | stderr |     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
+2024-07-30 16:29:34 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/main.py", line 577, in run
+2024-07-30 16:29:34 | ERROR | stderr |     server.run()
+2024-07-30 16:29:34 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+2024-07-30 16:29:34 | ERROR | stderr |     return asyncio.run(self.serve(sockets=sockets))
+2024-07-30 16:29:34 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 16:29:34 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 190, in run
+2024-07-30 16:29:34 | ERROR | stderr |     return runner.run(main)
+2024-07-30 16:29:34 | ERROR | stderr |            ^^^^^^^^^^^^^^^^
+2024-07-30 16:29:34 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 123, in run
+2024-07-30 16:29:34 | ERROR | stderr |     raise KeyboardInterrupt()
+2024-07-30 16:29:34 | ERROR | stderr | KeyboardInterrupt
+2024-07-30 16:29:36 | ERROR | stderr | Exception ignored in: <module 'threading' from '/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py'>
+2024-07-30 16:29:36 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 16:29:36 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py", line 1590, in _shutdown
+2024-07-30 16:29:36 | ERROR | stderr |     lock.acquire()
+2024-07-30 16:29:36 | ERROR | stderr | KeyboardInterrupt:
+2024-07-30 16:35:50 | INFO | controller | args: Namespace(host='127.0.0.1', port=21001, dispatch_method='shortest_queue', ssl=False)
+2024-07-30 16:35:50 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1354[0m]
+2024-07-30 16:35:50 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 16:35:50 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 16:35:50 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21001[0m (Press CTRL+C to quit)
+2024-07-30 16:41:06 | INFO | controller | Register a new worker: http://localhost:21002
+2024-07-30 16:41:06 | INFO | controller | Register done: http://localhost:21002, {'model_names': ['medalpaca'], 'speed': 1, 'queue_length': 0}
+2024-07-30 16:41:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40700 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:41:51 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 16:41:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47548 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:42:36 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 16:42:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56236 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:43:21 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 16:43:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56032 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:44:06 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 16:44:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35010 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:44:51 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 16:44:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39786 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:45:36 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 16:45:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54988 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:51:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60030 - "[1mPOST /refresh_all_workers HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:51:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60044 - "[1mPOST /list_language_models HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:53:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51502 - "[1mPOST /refresh_all_workers HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 16:53:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51506 - "[1mPOST /list_language_models HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:00:42 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-07-30 17:00:42 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-07-30 17:00:42 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-07-30 17:00:42 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m1354[0m]
+2024-07-30 17:00:42 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:00:42 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 118, in run
+2024-07-30 17:00:42 | ERROR | stderr |     return self._loop.run_until_complete(task)
+2024-07-30 17:00:42 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:00:42 | ERROR | stderr |   File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+2024-07-30 17:00:42 | ERROR | stderr | asyncio.exceptions.CancelledError
+2024-07-30 17:00:42 | ERROR | stderr | 
+2024-07-30 17:00:42 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-07-30 17:00:42 | ERROR | stderr | 
+2024-07-30 17:00:42 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:00:42 | ERROR | stderr |   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 17:00:42 | ERROR | stderr |   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 17:00:42 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/controller.py", line 389, in <module>
+2024-07-30 17:00:42 | ERROR | stderr |     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
+2024-07-30 17:00:42 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/main.py", line 577, in run
+2024-07-30 17:00:42 | ERROR | stderr |     server.run()
+2024-07-30 17:00:42 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+2024-07-30 17:00:42 | ERROR | stderr |     return asyncio.run(self.serve(sockets=sockets))
+2024-07-30 17:00:42 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:00:42 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 190, in run
+2024-07-30 17:00:42 | ERROR | stderr |     return runner.run(main)
+2024-07-30 17:00:42 | ERROR | stderr |            ^^^^^^^^^^^^^^^^
+2024-07-30 17:00:42 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 123, in run
+2024-07-30 17:00:42 | ERROR | stderr |     raise KeyboardInterrupt()
+2024-07-30 17:00:42 | ERROR | stderr | KeyboardInterrupt
+2024-07-30 17:00:44 | ERROR | stderr | Exception ignored in: <module 'threading' from '/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py'>
+2024-07-30 17:00:44 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:00:44 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py", line 1590, in _shutdown
+2024-07-30 17:00:44 | ERROR | stderr |     lock.acquire()
+2024-07-30 17:00:44 | ERROR | stderr | KeyboardInterrupt:
+2024-07-30 17:00:48 | INFO | controller | args: Namespace(host='127.0.0.1', port=21001, dispatch_method='shortest_queue', ssl=False)
+2024-07-30 17:00:48 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1905[0m]
+2024-07-30 17:00:48 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 17:00:48 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 17:00:48 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21001[0m (Press CTRL+C to quit)
+2024-07-30 17:01:05 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-07-30 17:01:05 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-07-30 17:01:05 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-07-30 17:01:05 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m1905[0m]
+2024-07-30 17:01:05 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:01:05 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 118, in run
+2024-07-30 17:01:05 | ERROR | stderr |     return self._loop.run_until_complete(task)
+2024-07-30 17:01:05 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:01:05 | ERROR | stderr |   File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+2024-07-30 17:01:05 | ERROR | stderr | asyncio.exceptions.CancelledError
+2024-07-30 17:01:05 | ERROR | stderr | 
+2024-07-30 17:01:05 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-07-30 17:01:05 | ERROR | stderr | 
+2024-07-30 17:01:05 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:01:05 | ERROR | stderr |   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 17:01:05 | ERROR | stderr |   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 17:01:05 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/controller.py", line 389, in <module>
+2024-07-30 17:01:05 | ERROR | stderr |     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
+2024-07-30 17:01:05 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/main.py", line 577, in run
+2024-07-30 17:01:05 | ERROR | stderr |     server.run()
+2024-07-30 17:01:05 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+2024-07-30 17:01:05 | ERROR | stderr |     return asyncio.run(self.serve(sockets=sockets))
+2024-07-30 17:01:05 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:01:05 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 190, in run
+2024-07-30 17:01:05 | ERROR | stderr |     return runner.run(main)
+2024-07-30 17:01:05 | ERROR | stderr |            ^^^^^^^^^^^^^^^^
+2024-07-30 17:01:05 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 123, in run
+2024-07-30 17:01:05 | ERROR | stderr |     raise KeyboardInterrupt()
+2024-07-30 17:01:05 | ERROR | stderr | KeyboardInterrupt
+2024-07-30 17:01:11 | ERROR | stderr | Exception ignored in: <module 'threading' from '/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py'>
+2024-07-30 17:01:11 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:01:11 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py", line 1590, in _shutdown
+2024-07-30 17:01:11 | ERROR | stderr |     lock.acquire()
+2024-07-30 17:01:11 | ERROR | stderr | KeyboardInterrupt:
+2024-07-30 17:01:17 | INFO | controller | args: Namespace(host='127.0.0.1', port=21001, dispatch_method='shortest_queue', ssl=False)
+2024-07-30 17:01:17 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1989[0m]
+2024-07-30 17:01:17 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 17:01:17 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 17:01:17 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21001[0m (Press CTRL+C to quit)
+2024-07-30 17:01:45 | INFO | controller | Register a new worker: http://localhost:21002
+2024-07-30 17:01:45 | INFO | controller | Register done: http://localhost:21002, {'model_names': ['medalpaca'], 'speed': 1, 'queue_length': 0}
+2024-07-30 17:01:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37206 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:01:54 | INFO | controller | Register a new worker: http://localhost:21002
+2024-07-30 17:01:54 | INFO | controller | Register done: http://localhost:21002, {'model_names': ['medalpaca'], 'speed': 1, 'queue_length': 0}
+2024-07-30 17:01:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46226 - "[1mPOST /refresh_all_workers HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:01:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46228 - "[1mPOST /list_language_models HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:02:30 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:02:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53636 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:03:15 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:03:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36474 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:03:44 | INFO | controller | Register a new worker: http://localhost:21002
+2024-07-30 17:03:44 | INFO | controller | Register done: http://localhost:21002, {'model_names': ['medalpaca'], 'speed': 1, 'queue_length': 0}
+2024-07-30 17:03:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57288 - "[1mPOST /refresh_all_workers HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:03:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57300 - "[1mPOST /list_language_models HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:00 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:04:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52132 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:02 | INFO | controller | names: ['http://localhost:21002'], queue_lens: [0.0], ret: http://localhost:21002
+2024-07-30 17:04:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34958 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:12 | INFO | controller | names: ['http://localhost:21002'], queue_lens: [1.0], ret: http://localhost:21002
+2024-07-30 17:04:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42498 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:17 | INFO | controller | names: ['http://localhost:21002'], queue_lens: [2.0], ret: http://localhost:21002
+2024-07-30 17:04:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42506 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:25 | INFO | controller | names: ['http://localhost:21002'], queue_lens: [3.0], ret: http://localhost:21002
+2024-07-30 17:04:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59244 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:36 | INFO | controller | names: ['http://localhost:21002'], queue_lens: [4.0], ret: http://localhost:21002
+2024-07-30 17:04:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50258 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:04:45 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:04:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45896 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:05:30 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:05:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36996 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:06:15 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:06:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51306 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:07:00 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:07:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59412 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:07:45 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:07:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52116 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:08:30 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:08:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34800 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:09:15 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:09:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38296 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:10:00 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:10:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45272 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:10:45 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:10:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57422 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:11:30 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:11:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59778 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:12:15 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:12:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60568 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:13:00 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:13:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41328 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:13:45 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:13:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50638 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:14:30 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:14:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59320 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:15:15 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:15:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53480 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:16:00 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:16:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39638 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:16:45 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:16:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59446 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:16:49 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-07-30 17:16:50 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-07-30 17:16:50 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-07-30 17:16:50 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m1989[0m]
+2024-07-30 17:16:50 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:16:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 118, in run
+2024-07-30 17:16:50 | ERROR | stderr |     return self._loop.run_until_complete(task)
+2024-07-30 17:16:50 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:16:50 | ERROR | stderr |   File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+2024-07-30 17:16:50 | ERROR | stderr | asyncio.exceptions.CancelledError
+2024-07-30 17:16:50 | ERROR | stderr | 
+2024-07-30 17:16:50 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-07-30 17:16:50 | ERROR | stderr | 
+2024-07-30 17:16:50 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:16:50 | ERROR | stderr |   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 17:16:50 | ERROR | stderr |   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 17:16:50 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/controller.py", line 389, in <module>
+2024-07-30 17:16:50 | ERROR | stderr |     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
+2024-07-30 17:16:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/main.py", line 577, in run
+2024-07-30 17:16:50 | ERROR | stderr |     server.run()
+2024-07-30 17:16:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+2024-07-30 17:16:50 | ERROR | stderr |     return asyncio.run(self.serve(sockets=sockets))
+2024-07-30 17:16:50 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:16:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 190, in run
+2024-07-30 17:16:50 | ERROR | stderr |     return runner.run(main)
+2024-07-30 17:16:50 | ERROR | stderr |            ^^^^^^^^^^^^^^^^
+2024-07-30 17:16:50 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 123, in run
+2024-07-30 17:16:50 | ERROR | stderr |     raise KeyboardInterrupt()
+2024-07-30 17:16:50 | ERROR | stderr | KeyboardInterrupt
+2024-07-30 17:16:56 | ERROR | stderr | Exception ignored in: <module 'threading' from '/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py'>
+2024-07-30 17:16:56 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:16:56 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py", line 1590, in _shutdown
+2024-07-30 17:16:56 | ERROR | stderr |     lock.acquire()
+2024-07-30 17:16:56 | ERROR | stderr | KeyboardInterrupt:
+2024-07-30 17:16:58 | INFO | controller | args: Namespace(host='127.0.0.1', port=21001, dispatch_method='shortest_queue', ssl=False)
+2024-07-30 17:16:58 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m2355[0m]
+2024-07-30 17:16:58 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 17:16:58 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 17:16:58 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21001[0m (Press CTRL+C to quit)
+2024-07-30 17:17:27 | INFO | controller | Register a new worker: http://localhost:21002
+2024-07-30 17:17:27 | INFO | controller | Register done: http://localhost:21002, {'model_names': ['medalpaca'], 'speed': 1, 'queue_length': 0}
+2024-07-30 17:17:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60976 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:18:12 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:18:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55218 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:18:57 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:18:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56712 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:19:42 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:19:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45612 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:20:27 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:20:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34546 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:21:12 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:21:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45874 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:21:57 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:21:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59144 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:22:37 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-07-30 17:22:37 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-07-30 17:22:37 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-07-30 17:22:37 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m2355[0m]
+2024-07-30 17:22:37 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:22:37 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 118, in run
+2024-07-30 17:22:37 | ERROR | stderr |     return self._loop.run_until_complete(task)
+2024-07-30 17:22:37 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:22:37 | ERROR | stderr |   File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+2024-07-30 17:22:37 | ERROR | stderr | asyncio.exceptions.CancelledError
+2024-07-30 17:22:37 | ERROR | stderr | 
+2024-07-30 17:22:37 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-07-30 17:22:37 | ERROR | stderr | 
+2024-07-30 17:22:37 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:22:37 | ERROR | stderr |   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 17:22:37 | ERROR | stderr |   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 17:22:37 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/controller.py", line 389, in <module>
+2024-07-30 17:22:37 | ERROR | stderr |     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
+2024-07-30 17:22:37 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/main.py", line 577, in run
+2024-07-30 17:22:37 | ERROR | stderr |     server.run()
+2024-07-30 17:22:37 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+2024-07-30 17:22:37 | ERROR | stderr |     return asyncio.run(self.serve(sockets=sockets))
+2024-07-30 17:22:37 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:22:37 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 190, in run
+2024-07-30 17:22:37 | ERROR | stderr |     return runner.run(main)
+2024-07-30 17:22:37 | ERROR | stderr |            ^^^^^^^^^^^^^^^^
+2024-07-30 17:22:37 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/asyncio/runners.py", line 123, in run
+2024-07-30 17:22:37 | ERROR | stderr |     raise KeyboardInterrupt()
+2024-07-30 17:22:37 | ERROR | stderr | KeyboardInterrupt
+2024-07-30 17:22:38 | ERROR | stderr | Exception ignored in: <module 'threading' from '/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py'>
+2024-07-30 17:22:38 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:22:38 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/threading.py", line 1590, in _shutdown
+2024-07-30 17:22:38 | ERROR | stderr |     lock.acquire()
+2024-07-30 17:22:38 | ERROR | stderr | KeyboardInterrupt:
+2024-07-30 17:22:41 | INFO | controller | args: Namespace(host='127.0.0.1', port=21001, dispatch_method='shortest_queue', ssl=False)
+2024-07-30 17:22:41 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m2467[0m]
+2024-07-30 17:22:41 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-07-30 17:22:41 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-07-30 17:22:41 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:21001[0m (Press CTRL+C to quit)
+2024-07-30 17:23:08 | INFO | controller | Register a new worker: http://localhost:21002
+2024-07-30 17:23:08 | INFO | controller | Register done: http://localhost:21002, {'model_names': ['medalpaca'], 'speed': 1, 'queue_length': 0}
+2024-07-30 17:23:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34228 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:23:28 | INFO | controller | Register a new worker: http://localhost:21002
+2024-07-30 17:23:28 | INFO | controller | Register done: http://localhost:21002, {'model_names': ['medalpaca'], 'speed': 1, 'queue_length': 0}
+2024-07-30 17:23:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51808 - "[1mPOST /refresh_all_workers HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:23:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51810 - "[1mPOST /list_language_models HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:23:53 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:23:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54776 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:24:38 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:24:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39496 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2024-07-30 17:25:23 | INFO | controller | Receive heart beat. http://localhost:21002
+2024-07-30 17:25:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45600 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m

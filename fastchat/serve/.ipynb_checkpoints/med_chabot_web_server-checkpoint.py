@@ -809,27 +809,27 @@ def bot_response(
         fout.write(json.dumps(data) + "\n")
     get_remote_logger().log(data)
 
-def get_model_description_md(models):
-    model_description_md = """
-| | | |
-| ---- | ---- | ---- |
-"""
-    ct = 0
-    visited = set()
-    for i, name in enumerate(models):
-        minfo = get_model_info(name)
-        if minfo.simple_name in visited:
-            continue
-        visited.add(minfo.simple_name)
-        one_model_md = f"[{minfo.simple_name}]({minfo.link}): {minfo.description}"
+# def get_model_description_md(models):
+#     model_description_md = """
+# | | | |
+# | ---- | ---- | ---- |
+# """
+#     ct = 0
+#     visited = set()
+#     for i, name in enumerate(models):
+#         minfo = get_model_info(name)
+#         if minfo.simple_name in visited:
+#             continue
+#         visited.add(minfo.simple_name)
+#         one_model_md = f"[{minfo.simple_name}]({minfo.link}): {minfo.description}"
 
-        if ct % 3 == 0:
-            model_description_md += "|"
-        model_description_md += f" {one_model_md} |"
-        if ct % 3 == 2:
-            model_description_md += "\n"
-        ct += 1
-    return model_description_md
+#         if ct % 3 == 0:
+#             model_description_md += "|"
+#         model_description_md += f" {one_model_md} |"
+#         if ct % 3 == 2:
+#             model_description_md += "\n"
+#         ct += 1
+#     return model_description_md
 
 
 def build_single_model_ui(models, add_promotion_links=False):

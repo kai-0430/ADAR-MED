@@ -1,0 +1,188 @@
+2024-07-30 16:51:34 | INFO | gradio_web_server | args: Namespace(host='127.0.0.1', port=None, share=True, controller_url='http://localhost:21001', concurrency_count=10, model_list_mode='once', moderate=False, show_terms_of_use=False, register_api_endpoint_file=None, gradio_auth_path=None, gradio_root_path=None, use_remote_storage=False)
+2024-07-30 16:51:34 | INFO | gradio_web_server | All models: []
+2024-07-30 16:51:34 | INFO | gradio_web_server | Visible models: []
+2024-07-30 16:51:34 | ERROR | stderr | /home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/components/dropdown.py:181: UserWarning: The value passed into gr.Dropdown() is not in the list of choices. Please update the list of choices to include:  or set allow_custom_value=True.
+2024-07-30 16:51:34 | ERROR | stderr |   warnings.warn(
+2024-07-30 16:51:34 | INFO | stdout | Running on local URL:  http://127.0.0.1:7860
+2024-07-30 16:51:35 | INFO | stdout | Running on public URL: https://e3cc14828725309c56.gradio.live
+2024-07-30 16:51:35 | INFO | stdout | 
+2024-07-30 16:51:35 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-07-30 16:51:43 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-07-30 16:51:43 | INFO | stdout | Killing tunnel 127.0.0.1:7860 <> https://e3cc14828725309c56.gradio.live
+2024-07-30 16:53:45 | INFO | gradio_web_server | args: Namespace(host='127.0.0.1', port=None, share=True, controller_url='http://localhost:21001', concurrency_count=10, model_list_mode='once', moderate=False, show_terms_of_use=False, register_api_endpoint_file=None, gradio_auth_path=None, gradio_root_path=None, use_remote_storage=False)
+2024-07-30 16:53:45 | INFO | gradio_web_server | All models: []
+2024-07-30 16:53:45 | INFO | gradio_web_server | Visible models: []
+2024-07-30 16:53:46 | ERROR | stderr | /home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/components/dropdown.py:181: UserWarning: The value passed into gr.Dropdown() is not in the list of choices. Please update the list of choices to include:  or set allow_custom_value=True.
+2024-07-30 16:53:46 | ERROR | stderr |   warnings.warn(
+2024-07-30 16:53:46 | INFO | stdout | Running on local URL:  http://127.0.0.1:7860
+2024-07-30 16:53:46 | INFO | stdout | Running on public URL: https://415f0adda340bbaf76.gradio.live
+2024-07-30 16:53:46 | INFO | stdout | 
+2024-07-30 16:53:46 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-07-30 17:00:30 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-07-30 17:00:30 | INFO | stdout | Killing tunnel 127.0.0.1:7860 <> https://415f0adda340bbaf76.gradio.live
+2024-07-30 17:01:54 | INFO | gradio_web_server | args: Namespace(host='127.0.0.1', port=None, share=True, controller_url='http://localhost:21001', concurrency_count=10, model_list_mode='once', moderate=False, show_terms_of_use=False, register_api_endpoint_file=None, gradio_auth_path=None, gradio_root_path=None, use_remote_storage=False)
+2024-07-30 17:01:54 | INFO | gradio_web_server | All models: ['medalpaca']
+2024-07-30 17:01:54 | INFO | gradio_web_server | Visible models: ['medalpaca']
+2024-07-30 17:01:54 | INFO | stdout | Running on local URL:  http://127.0.0.1:7860
+2024-07-30 17:01:55 | INFO | stdout | Running on public URL: https://21e1d0bbab8676dfc3.gradio.live
+2024-07-30 17:01:55 | INFO | stdout | 
+2024-07-30 17:01:55 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-07-30 17:02:06 | INFO | gradio_web_server | load_demo. ip: 60.251.194.115. params: {}
+2024-07-30 17:02:15 | INFO | gradio_web_server | add_text_symptom. ip: 60.251.194.115. len: 21
+2024-07-30 17:02:15 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/queueing.py", line 521, in process_events
+2024-07-30 17:02:15 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-07-30 17:02:15 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/route_utils.py", line 276, in call_process_api
+2024-07-30 17:02:15 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-07-30 17:02:15 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-07-30 17:02:15 | ERROR | stderr |     result = await self.call_function(
+2024-07-30 17:02:15 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/blocks.py", line 1513, in call_function
+2024-07-30 17:02:15 | ERROR | stderr |     prediction = await anyio.to_thread.run_sync(
+2024-07-30 17:02:15 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+2024-07-30 17:02:15 | ERROR | stderr |     return await get_async_backend().run_sync_in_worker_thread(
+2024-07-30 17:02:15 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2177, in run_sync_in_worker_thread
+2024-07-30 17:02:15 | ERROR | stderr |     return await future
+2024-07-30 17:02:15 | ERROR | stderr |            ^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 859, in run
+2024-07-30 17:02:15 | ERROR | stderr |     result = context.run(func, *args)
+2024-07-30 17:02:15 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/utils.py", line 831, in wrapper
+2024-07-30 17:02:15 | ERROR | stderr |     response = f(*args, **kwargs)
+2024-07-30 17:02:15 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/med_chabot_web_server.py", line 591, in add_text_symptom
+2024-07-30 17:02:15 | ERROR | stderr |     return (state, state.to_gradio_chatbot(), "") + (disable_btn,) * 9
+2024-07-30 17:02:15 | ERROR | stderr |                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/med_chabot_web_server.py", line 204, in to_gradio_chatbot
+2024-07-30 17:02:15 | ERROR | stderr |     return self.conv.to_gradio_chatbot()
+2024-07-30 17:02:15 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:15 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/conversation.py", line 361, in to_gradio_chatbot
+2024-07-30 17:02:15 | ERROR | stderr |     from fastchat.serve.vision.image import ImageFormat
+2024-07-30 17:02:15 | ERROR | stderr | ModuleNotFoundError: No module named 'fastchat.serve.vision'
+2024-07-30 17:02:16 | INFO | gradio_web_server | bot_response. ip: 60.251.194.115
+2024-07-30 17:02:16 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/queueing.py", line 521, in process_events
+2024-07-30 17:02:16 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-07-30 17:02:16 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/route_utils.py", line 276, in call_process_api
+2024-07-30 17:02:16 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-07-30 17:02:16 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-07-30 17:02:16 | ERROR | stderr |     result = await self.call_function(
+2024-07-30 17:02:16 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/blocks.py", line 1525, in call_function
+2024-07-30 17:02:16 | ERROR | stderr |     prediction = await utils.async_iteration(iterator)
+2024-07-30 17:02:16 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/utils.py", line 655, in async_iteration
+2024-07-30 17:02:16 | ERROR | stderr |     return await iterator.__anext__()
+2024-07-30 17:02:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/utils.py", line 648, in __anext__
+2024-07-30 17:02:16 | ERROR | stderr |     return await anyio.to_thread.run_sync(
+2024-07-30 17:02:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+2024-07-30 17:02:16 | ERROR | stderr |     return await get_async_backend().run_sync_in_worker_thread(
+2024-07-30 17:02:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2177, in run_sync_in_worker_thread
+2024-07-30 17:02:16 | ERROR | stderr |     return await future
+2024-07-30 17:02:16 | ERROR | stderr |            ^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 859, in run
+2024-07-30 17:02:16 | ERROR | stderr |     result = context.run(func, *args)
+2024-07-30 17:02:16 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/utils.py", line 631, in run_sync_iterator_async
+2024-07-30 17:02:16 | ERROR | stderr |     return next(iterator)
+2024-07-30 17:02:16 | ERROR | stderr |            ^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/anaconda3/envs/kai_vllm/lib/python3.11/site-packages/gradio/utils.py", line 814, in gen_wrapper
+2024-07-30 17:02:16 | ERROR | stderr |     response = next(iterator)
+2024-07-30 17:02:16 | ERROR | stderr |                ^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/med_chabot_web_server.py", line 666, in bot_response
+2024-07-30 17:02:16 | ERROR | stderr |     if state.skip_next:
+2024-07-30 17:02:16 | ERROR | stderr |        ^^^^^^^^^^^^^^^
+2024-07-30 17:02:16 | ERROR | stderr | AttributeError: 'NoneType' object has no attribute 'skip_next'
+2024-07-30 17:03:36 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-07-30 17:03:36 | INFO | stdout | Killing tunnel 127.0.0.1:7860 <> https://21e1d0bbab8676dfc3.gradio.live
+2024-07-30 17:03:44 | INFO | gradio_web_server | args: Namespace(host='127.0.0.1', port=None, share=True, controller_url='http://localhost:21001', concurrency_count=10, model_list_mode='once', moderate=False, show_terms_of_use=False, register_api_endpoint_file=None, gradio_auth_path=None, gradio_root_path=None, use_remote_storage=False)
+2024-07-30 17:03:44 | INFO | gradio_web_server | All models: ['medalpaca']
+2024-07-30 17:03:44 | INFO | gradio_web_server | Visible models: ['medalpaca']
+2024-07-30 17:03:44 | INFO | stdout | Running on local URL:  http://127.0.0.1:7860
+2024-07-30 17:03:45 | INFO | stdout | Running on public URL: https://b16394534c540290f4.gradio.live
+2024-07-30 17:03:45 | INFO | stdout | 
+2024-07-30 17:03:45 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-07-30 17:03:57 | INFO | gradio_web_server | load_demo. ip: 60.251.194.115. params: {}
+2024-07-30 17:04:01 | INFO | gradio_web_server | add_text_symptom. ip: 60.251.194.115. len: 6
+2024-07-30 17:04:02 | INFO | gradio_web_server | bot_response. ip: 60.251.194.115
+2024-07-30 17:04:02 | INFO | gradio_web_server | monitor error: Extra data: line 1 column 5 (char 4)
+2024-07-30 17:04:02 | INFO | gradio_web_server | model_name: medalpaca, worker_addr: http://localhost:21002
+2024-07-30 17:04:02 | INFO | gradio_web_server | ==== request ====
+{'model': 'medalpaca', 'prompt': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction: hello  What symptoms might I be experiencing?\n\n### Response:', 'temperature': 0.7, 'repetition_penalty': 1.0, 'top_p': 1.0, 'max_new_tokens': 1024, 'stop': None, 'stop_token_ids': None, 'echo': False}
+2024-07-30 17:04:07 | INFO | gradio_web_server | As an AI language model, I do not have any personal experiences or symptoms. However, I can provide some general information about the symptoms that some people may experience when they are feeling unwell. These symptoms can vary depending on the individual and the underlying cause of the illness.
+
+Some common symptoms include fever, cough, headache, sore throat, fatigue, nausea, vomiting, diarrhea, abdominal pain, and confusion. These symptoms can be caused by a number of different illnesses, such as the common cold, flu, food poisoning, or a more serious condition like pneumonia or meningitis.
+
+If you are experiencing any of these symptoms, it is important to seek medical attention right away. A healthcare provider can perform a physical examination, order diagnostic tests, and prescribe medication if necessary.
+2024-07-30 17:04:11 | INFO | gradio_web_server | add_text_suggest. ip: 60.251.194.115. len: 12
+2024-07-30 17:04:12 | INFO | gradio_web_server | bot_response. ip: 60.251.194.115
+2024-07-30 17:04:12 | INFO | gradio_web_server | monitor error: Extra data: line 1 column 5 (char 4)
+2024-07-30 17:04:12 | INFO | gradio_web_server | model_name: medalpaca, worker_addr: http://localhost:21002
+2024-07-30 17:04:12 | INFO | gradio_web_server | ==== request ====
+{'model': 'medalpaca', 'prompt': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction: hello  What symptoms might I be experiencing?\n\n### Response: As an AI language model, I do not have any personal experiences or symptoms. However, I can provide some general information about the symptoms that some people may experience when they are feeling unwell. These symptoms can vary depending on the individual and the underlying cause of the illness.\n\nSome common symptoms include fever, cough, headache, sore throat, fatigue, nausea, vomiting, diarrhea, abdominal pain, and confusion. These symptoms can be caused by a number of different illnesses, such as the common cold, flu, food poisoning, or a more serious condition like pneumonia or meningitis.\n\nIf you are experiencing any of these symptoms, it is important to seek medical attention right away. A healthcare provider can perform a physical examination, order diagnostic tests, and prescribe medication if necessary.</s>### Instruction: weqwdqwd asd Based on my symptoms, please list 4 suggestions for me.\n\n### Response:', 'temperature': 0.7, 'repetition_penalty': 1.0, 'top_p': 1.0, 'max_new_tokens': 1024, 'stop': None, 'stop_token_ids': None, 'echo': False}
+2024-07-30 17:04:16 | INFO | gradio_web_server | As an AI language model, I do not have any personal experiences or symptoms. Additionally, I do not have the ability to diagnose or treat medical conditions. However, the following general suggestions may be helpful to manage certain symptoms:
+
+Drink plenty of fluids to prevent dehydration.
+Rest and take a break from activities that may cause stress or exacerbate symptoms.
+Eat nutritious foods to maintain a healthy immune system and energy levels.
+Consult with a healthcare professional for proper diagnosis and treatment.
+2024-07-30 17:04:16 | INFO | gradio_web_server | add_suggestion3. ip: 60.251.194.115
+2024-07-30 17:04:17 | INFO | gradio_web_server | bot_response. ip: 60.251.194.115
+2024-07-30 17:04:17 | INFO | gradio_web_server | monitor error: Extra data: line 1 column 5 (char 4)
+2024-07-30 17:04:17 | INFO | gradio_web_server | model_name: medalpaca, worker_addr: http://localhost:21002
+2024-07-30 17:04:17 | INFO | gradio_web_server | ==== request ====
+{'model': 'medalpaca', 'prompt': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction: hello  What symptoms might I be experiencing?\n\n### Response: As an AI language model, I do not have any personal experiences or symptoms. However, I can provide some general information about the symptoms that some people may experience when they are feeling unwell. These symptoms can vary depending on the individual and the underlying cause of the illness.\n\nSome common symptoms include fever, cough, headache, sore throat, fatigue, nausea, vomiting, diarrhea, abdominal pain, and confusion. These symptoms can be caused by a number of different illnesses, such as the common cold, flu, food poisoning, or a more serious condition like pneumonia or meningitis.\n\nIf you are experiencing any of these symptoms, it is important to seek medical attention right away. A healthcare provider can perform a physical examination, order diagnostic tests, and prescribe medication if necessary.</s>### Instruction: weqwdqwd asd Based on my symptoms, please list 4 suggestions for me.\n\n### Response: As an AI language model, I do not have any personal experiences or symptoms. Additionally, I do not have the ability to diagnose or treat medical conditions. However, the following general suggestions may be helpful to manage certain symptoms:\n\nDrink plenty of fluids to prevent dehydration.\nRest and take a break from activities that may cause stress or exacerbate symptoms.\nEat nutritious foods to maintain a healthy immune system and energy levels.\nConsult with a healthcare professional for proper diagnosis and treatment.</s>### Instruction: Based on suggestion 3, can you tell me more detail ?\n\n### Response:', 'temperature': 0.7, 'repetition_penalty': 1.0, 'top_p': 1.0, 'max_new_tokens': 1024, 'stop': None, 'stop_token_ids': None, 'echo': False}
+2024-07-30 17:04:19 | INFO | gradio_web_server | switch_mode. ip: 60.251.194.115
+2024-07-30 17:04:22 | INFO | gradio_web_server | Yes, of course! Here are some dietary changes you can make to improve your overall health and immune system:
+
+Eat plenty of fruits, vegetables, whole grains, and lean proteins.
+Avoid sugary or fatty foods that may cause inflammation or dehydration.
+Stay hydrated by drinking plenty of water and other fluids.
+Get enough sleep and exercise to maintain energy levels and reduce stress.
+Manage any underlying medical conditions such as diabetes or high blood pressure.
+Consider taking vitamin or mineral supplements as recommended by your healthcare provider.
+If you have any specific concerns or questions about your diet, I can provide more personalized recommendations. Just let me know!
+2024-07-30 17:04:24 | INFO | gradio_web_server | add_text. ip: 60.251.194.115. len: 3
+2024-07-30 17:04:25 | INFO | gradio_web_server | bot_response. ip: 60.251.194.115
+2024-07-30 17:04:25 | INFO | gradio_web_server | monitor error: Extra data: line 1 column 5 (char 4)
+2024-07-30 17:04:25 | INFO | gradio_web_server | model_name: medalpaca, worker_addr: http://localhost:21002
+2024-07-30 17:04:25 | INFO | gradio_web_server | ==== request ====
+{'model': 'medalpaca', 'prompt': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction: hello  What symptoms might I be experiencing?\n\n### Response: As an AI language model, I do not have any personal experiences or symptoms. However, I can provide some general information about the symptoms that some people may experience when they are feeling unwell. These symptoms can vary depending on the individual and the underlying cause of the illness.\n\nSome common symptoms include fever, cough, headache, sore throat, fatigue, nausea, vomiting, diarrhea, abdominal pain, and confusion. These symptoms can be caused by a number of different illnesses, such as the common cold, flu, food poisoning, or a more serious condition like pneumonia or meningitis.\n\nIf you are experiencing any of these symptoms, it is important to seek medical attention right away. A healthcare provider can perform a physical examination, order diagnostic tests, and prescribe medication if necessary.</s>### Instruction: weqwdqwd asd Based on my symptoms, please list 4 suggestions for me.\n\n### Response: As an AI language model, I do not have any personal experiences or symptoms. Additionally, I do not have the ability to diagnose or treat medical conditions. However, the following general suggestions may be helpful to manage certain symptoms:\n\nDrink plenty of fluids to prevent dehydration.\nRest and take a break from activities that may cause stress or exacerbate symptoms.\nEat nutritious foods to maintain a healthy immune system and energy levels.\nConsult with a healthcare professional for proper diagnosis and treatment.</s>### Instruction: Based on suggestion 3, can you tell me more detail ?\n\n### Response: Yes, of course! Here are some dietary changes you can make to improve your overall health and immune system:\n\nEat plenty of fruits, vegetables, whole grains, and lean proteins.\nAvoid sugary or fatty foods that may cause inflammation or dehydration.\nStay hydrated by drinking plenty of water and other fluids.\nGet enough sleep and exercise to maintain energy levels and reduce stress.\nManage any underlying medical conditions such as diabetes or high blood pressure.\nConsider taking vitamin or mineral supplements as recommended by your healthcare provider.\nIf you have any specific concerns or questions about your diet, I can provide more personalized recommendations. Just let me know!</s>### Instruction: Doctor, the situation is urgent. The patient has the following symptoms: dsd\nWhat urgent measures should be taken?\n\n### Response:', 'temperature': 0.7, 'repetition_penalty': 1.0, 'top_p': 1.0, 'max_new_tokens': 1024, 'stop': None, 'stop_token_ids': None, 'echo': False}
+2024-07-30 17:04:32 | INFO | gradio_web_server | If the symptoms are severe or the patient has certain underlying medical conditions, immediate medical attention is necessary. The patient may experience one or more of the following urgent measures:
+
+Call 911 or the local emergency number or go to the emergency room if the patient has difficulty breathing or shortness of breath.
+Call 911 or the local emergency number or go to the emergency room if the patient has chest pain or chills.
+Call 911 or the local emergency number or go to the emergency room if the patient has severe abdominal pain or vomiting.
+Call 911 or the local emergency number or go to the emergency room if the patient has confusion, seizures, or a fever.
+Call 911 or the local emergency number or go to the emergency room if the patient has severe headache, confusion, or changes in speech or vision.
+Call 911 or the local emergency number or go to the emergency room if the patient has severe bleeding or significant injury.
+2024-07-30 17:04:33 | INFO | gradio_web_server | clear_history. ip: 60.251.194.115
+2024-07-30 17:04:35 | INFO | gradio_web_server | add_text. ip: 60.251.194.115. len: 4
+2024-07-30 17:04:36 | INFO | gradio_web_server | bot_response. ip: 60.251.194.115
+2024-07-30 17:04:36 | INFO | gradio_web_server | monitor error: Extra data: line 1 column 5 (char 4)
+2024-07-30 17:04:36 | INFO | gradio_web_server | model_name: medalpaca, worker_addr: http://localhost:21002
+2024-07-30 17:04:36 | INFO | gradio_web_server | ==== request ====
+{'model': 'medalpaca', 'prompt': 'Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction: Doctor, the situation is urgent. The patient has the following symptoms: dsdd\nWhat urgent measures should be taken?\n\n### Response:', 'temperature': 0.7, 'repetition_penalty': 1.0, 'top_p': 1.0, 'max_new_tokens': 1024, 'stop': None, 'stop_token_ids': None, 'echo': False}
+2024-07-30 17:04:37 | INFO | gradio_web_server | If the patient has these symptoms, you need to seek emergency medical attention immediately.
+2024-07-30 17:16:53 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-07-30 17:16:54 | INFO | stdout | Killing tunnel 127.0.0.1:7860 <> https://b16394534c540290f4.gradio.live
+2024-07-30 17:23:28 | INFO | gradio_web_server | args: Namespace(host='127.0.0.1', port=None, share=True, controller_url='http://localhost:21001', concurrency_count=10, model_list_mode='once', moderate=False, show_terms_of_use=False, register_api_endpoint_file=None, gradio_auth_path=None, gradio_root_path=None, use_remote_storage=False)
+2024-07-30 17:23:28 | ERROR | stderr | Traceback (most recent call last):
+2024-07-30 17:23:28 | ERROR | stderr |   File "<frozen runpy>", line 198, in _run_module_as_main
+2024-07-30 17:23:28 | ERROR | stderr |   File "<frozen runpy>", line 88, in _run_code
+2024-07-30 17:23:28 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/med_chabot_web_server.py", line 1175, in <module>
+2024-07-30 17:23:28 | ERROR | stderr |     models, all_models = get_model_list(
+2024-07-30 17:23:28 | ERROR | stderr |                          ^^^^^^^^^^^^^^^
+2024-07-30 17:23:28 | ERROR | stderr |   File "/home/aac/kai/repository/ADAR-MED/fastchat/serve/med_chabot_web_server.py", line 278, in get_model_list
+2024-07-30 17:23:28 | ERROR | stderr |     priority = {k: f"___{i:03d}" for i, k in enumerate(model_info)}
+2024-07-30 17:23:28 | ERROR | stderr |                                                        ^^^^^^^^^^
+2024-07-30 17:23:28 | ERROR | stderr | NameError: name 'model_info' is not defined
